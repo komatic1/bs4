@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>App</title>
+
+    <style>
+        body{
+            position:relative;
+        }
+        .jumbotron {
+            background-image: url(img/arseny-togulev-unsplash.jpg);
+            color: #e9ecef;
+            text-align: center;
+        }
+        #jemail{
+            width:500px;
+            margin:0 auto;
+        }
+        footer{
+            text-align: center;
+            margin-top:20px;
+            background-color: #c3e6cb;
+            padding:20px;
+        }
+        .active {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="mbar">
+
+<!-- navbar -->
+<nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top" id="mbar">
+    <a class="navbar-brand" href="#">My App</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="#jb">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#ab">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#dn">Download</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="email" placeholder="E-mail" aria-label="Email">
+            <input class="form-control mr-sm-2" type="password" placeholder="Password" aria-label="Password">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+        </form>
+    </div>
+</nav> <!-- /.navber-->
+
+<!-- jumbotron-->
+<div class="jumbotron" id="jb">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+
+    <!-- form -->
+    <form id="jemail">
+        <div class="form-row align-items-center">
+            <div class="col-auto">
+                <label class="sr-only" for="email">E-mail</label>
+                <div class="input-group mb-2">
+                    <div class="input-group-prepend">
+                        <div class="input-group-text">@</div>
+                    </div>
+                    <input type="text" class="form-control" id="email" name="email" placeholder="E-mail">
+                    <div class="input-group-append">
+                        <div class="input-group-text">.com</div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </div>
+        </div>
+    </form> <!-- /.form -->
+
+</div> <!-- /.jumbotron -->
+
+<div class="container">
+    <div class="row">
+        <h1 id="ab">Why my App is great!?</h1>
+
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, adipisci cum dolorem enim,
+            libero nam nemo nulla odit officia omnis perspiciatis placeat praesentium provident qui quia quos reiciendis
+            totam velit? Asperiores at atque blanditiis consequuntur corporis culpa deserunt dolorem dolorum eius
+            eligendi id iste itaque, minima molestias nulla perspiciatis quia quibusdam, tempore temporibus veritatis.
+            Accusamus dolorem dolores error ipsa itaque, modi, molestiae nisi numquam obcaecati officiis pariatur
+            placeat possimus reprehenderit sint veniam. Alias aliquid animi consectetur cumque doloremque doloribus,
+            eveniet exercitationem fugiat inventore itaque laudantium magnam maxime molestiae natus, nisi obcaecati
+            perspiciatis porro quidem sapiente similique suscipit tempora ullam unde voluptates voluptatum? Ad at beatae
+            consequatur cum delectus dicta eligendi eos error et eveniet excepturi expedita explicabo, hic id iure nam
+            nisi, officiis pariatur quae quaerat, quidem ratione recusandae sapiente sint tempora. Alias aliquam animi
+            asperiores atque blanditiis consequatur cumque cupiditate debitis deleniti deserunt dolor eos error eum ex
+            facilis incidunt ipsam magnam magni nam nemo nisi nulla obcaecati officiis omnis, optio perferendis porro
+            quaerat quia quis quod quos reiciendis reprehenderit rerum saepe sapiente temporibus vero! A adipisci
+            aperiam, architecto aspernatur blanditiis consectetur culpa debitis dolorem dolores ea earum eos excepturi
+            facilis illum ipsa ipsam ipsum, iure magni modi mollitia nam non odio odit omnis porro quaerat quam quas
+            quasi quisquam repudiandae sapiente sed sequi sint sunt veniam vitae voluptatibus. Accusamus aperiam, at
+            aut, corporis debitis deserunt doloremque doloribus earum fugiat modi mollitia nemo obcaecati quae
+            repudiandae totam ullam ut? Consequuntur dolorem excepturi id, necessitatibus odit porro repellendus?
+         </p>
+    </div>
+
+    <!-- cards -->
+    <div class="card-deck">
+        <div class="card">
+            <img src="img/laura-ockel-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/javier-quesada-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="img/suhyeon-choi-unsplash.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+            </div>
+        </div>
+    </div> <!-- /.cards -->
+
+</div>
+
+<footer>
+    <h2 id="dn">Download the App</h2>
+    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam animi consequuntur corporis deleniti deserunt doloremque dolorum eligendi facere hic illum ipsa ipsam ipsum labore minima modi necessitatibus neque porro praesentium, quas quo reprehenderit sint suscipit tempore ut vel veritatis voluptatibus? Ad dolores ipsa quam ratione sint ut voluptatum. Sed, ullam.</p>
+    <p><a href="#"><img src="img/en_badge_web_generic.png"></a></p>
+</footer>
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery.js"></script>
+<script src="js/util.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
